@@ -73,7 +73,7 @@ body {
 
 .marketing-site-hero {
   //margin-bottom: 10px;
-  background: url('/assets/img/blackrod.jpg') no-repeat;
+  background: url(/assets/img/blackrod.jpg) no-repeat;
   height: $marketing-site-hero-height;
   background-size: cover;
   display: flex;
@@ -130,7 +130,7 @@ body {
   padding: 0.15rem 1.0rem;
 
   .topbar-responsive-logo {
-    color: $white;
+    color: red;
     vertical-align: middle;
     font-family: Vollkorn SC;
     font-size: 24px;
@@ -386,8 +386,14 @@ body {
   height: 400px;
 
   .rgt-thead {
+    color: #888;
     margin-top: 6.3%;
     //border-bottom: 1px solid#fff;
+
+    hr {
+      width: 70%;
+      margin-left: 0;
+    }
   }
 
   h3 {
