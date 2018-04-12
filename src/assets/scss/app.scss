@@ -406,14 +406,47 @@ body {
 // About Page Styles
 
 .about-info {
-  font-size: 20px;
-  color: red;
+  //font-size: 20px;
+  //color: red;
   margin-bottom: 10px;
   padding-left: 20px;
   //background: #444;
-  border: 1px solid #fff;
+  //border: 1px solid #fff;
   //Remove this after adding content
-  height: 400px;
+  //height: 400px;
+}
+
+.four-up-feature {
+  text-align: center;
+  h4 {
+    font-size: 1.00rem;
+  }
+
+  .four-up-feature-header {
+    margin-bottom: 3rem;
+    display: flex;
+    h2 {
+      font-size: 1.5rem;
+    }
+    h5 {
+      font-size: 1.00rem;
+    }
+  }
+
+  .four-up-feature-image {
+    border-radius:  50%;
+    margin-bottom: 2rem;
+    h4 {
+      font-size: .75rem;
+    }
+  }
+
+  .four-up-feature-text {
+    margin-bottom: 2rem;
+  }
+  p {
+    font-size: .75rem;
+  }
 }
 
 //End About Page Styles
